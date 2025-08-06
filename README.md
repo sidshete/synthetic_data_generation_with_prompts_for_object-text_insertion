@@ -14,10 +14,8 @@ It uses YOLOv8, CLIP, SAM, MiDaS, and other vision/NLP models to analyze the inp
 ```
 .
 ├── CLI.txt                                 # Additional python CLI
-├── Dockerfile                              # -----Important------
-├── instructions.md                         # Follow steps for execution and reproducibility
-├── Quality_assessment.pdf                  # task4
-├── Model_Card.pdf                          # task3
+├── Dockerfile                              
+├── iREADME.md                              # Follow steps for execution and reproducibility
 ├── requirements.txt                        # python dependencies
 ├── results                                 # Already generated
 │   ├── object_placement
@@ -115,5 +113,4 @@ cd synthetic_data_generation
 python3 main.py --scene data/source_images/000000065485.jpg --object "PAJERO" --prompt "Write the tiny bold text on truck" --output outputs --evaluate
 ```
 
-## Notes
-Kindly reach out to me if you encounter any issues executing the steps at siddhantshete1994@gmail.com
+
