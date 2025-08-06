@@ -1,0 +1,11 @@
+Prompt: Write the tiny text tilted below laptop
+Inference Time (s): 0.635
+GPU Utilization: 7%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: httpxecllntonl5su bloa hoe
+match_score: 36.92307692307693
+clip_score: 23.5920467376709

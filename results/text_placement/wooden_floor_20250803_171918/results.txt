@@ -1,0 +1,11 @@
+Prompt: Write tiny text below tv
+Inference Time (s): 0.628
+GPU Utilization: 20%
+GPU Memory Used: 18207 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: wooclen iuocv
+match_score: 32.432432432432435
+clip_score: 24.241241455078125

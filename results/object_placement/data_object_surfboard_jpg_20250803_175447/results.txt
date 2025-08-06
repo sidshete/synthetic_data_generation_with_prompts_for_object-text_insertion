@@ -1,0 +1,10 @@
+Prompt: Place a large surfboard above backpack
+Inference Time (s): 0.718
+GPU Utilization: 3%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: image
+object_detected: True
+clip_score: 26.979293823242188
+lpips_score: 0.8061869740486145

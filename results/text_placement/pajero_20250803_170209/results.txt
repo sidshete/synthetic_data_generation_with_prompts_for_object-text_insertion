@@ -1,0 +1,11 @@
+Prompt: Write the tiny bold text on truck
+Inference Time (s): 0.632
+GPU Utilization: 15%
+GPU Memory Used: 18210 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: fourtr
+match_score: 15.384615384615385
+clip_score: 24.424312591552734

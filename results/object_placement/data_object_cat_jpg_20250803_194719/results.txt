@@ -1,0 +1,10 @@
+Prompt: Place a medium cat left of person
+Inference Time (s): 0.730
+GPU Utilization: 2%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: image
+object_detected: True
+clip_score: 18.498634338378906
+lpips_score: 0.6258500814437866

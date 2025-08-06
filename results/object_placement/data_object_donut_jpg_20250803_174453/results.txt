@@ -1,0 +1,10 @@
+Prompt: Place the small donut beside cake
+Inference Time (s): 0.752
+GPU Utilization: 2%
+GPU Memory Used: 18209 MiB
+
+Evaluation Metrics:
+type: image
+object_detected: True
+clip_score: 24.62314224243164
+lpips_score: 0.45717185735702515

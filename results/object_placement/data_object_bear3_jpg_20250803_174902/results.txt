@@ -1,0 +1,10 @@
+Prompt: Place the large bear below giraffe
+Inference Time (s): 0.733
+GPU Utilization: 2%
+GPU Memory Used: 18210 MiB
+
+Evaluation Metrics:
+type: image
+object_detected: True
+clip_score: 28.065000534057617
+lpips_score: 0.47794613242149353

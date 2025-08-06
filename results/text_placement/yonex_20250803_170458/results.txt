@@ -1,0 +1,11 @@
+Prompt: Write the tiny text rotate 90 on person
+Inference Time (s): 0.626
+GPU Utilization: 12%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: aegon
+match_score: 18.181818181818176
+clip_score: 16.922809600830078

@@ -1,0 +1,11 @@
+Prompt: Write the tiny text diagonal on person
+Inference Time (s): 0.624
+GPU Utilization: 12%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: egon
+match_score: 19.047619047619047
+clip_score: 17.962310791015625

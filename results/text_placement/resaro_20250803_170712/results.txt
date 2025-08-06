@@ -1,0 +1,11 @@
+Prompt: Write the tiny red text tilted above mouse
+Inference Time (s): 0.633
+GPU Utilization: 13%
+GPU Memory Used: 18208 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: httpxecllntonl5su bloa hoe
+match_score: 35.29411764705882
+clip_score: 21.982345581054688

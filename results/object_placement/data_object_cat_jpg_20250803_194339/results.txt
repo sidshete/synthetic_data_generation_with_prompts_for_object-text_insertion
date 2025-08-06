@@ -1,0 +1,10 @@
+Prompt: Place a large cat beside person
+Inference Time (s): 0.761
+GPU Utilization: 0%
+GPU Memory Used: 18210 MiB
+
+Evaluation Metrics:
+type: image
+object_detected: True
+clip_score: 26.929269790649414
+lpips_score: 0.7362455129623413

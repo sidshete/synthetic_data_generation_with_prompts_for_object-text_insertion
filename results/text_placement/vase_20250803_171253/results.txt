@@ -1,0 +1,11 @@
+Prompt: Write the tiny text rotate 90 on vase
+Inference Time (s): 0.642
+GPU Utilization: 5%
+GPU Memory Used: 18211 MiB
+
+Evaluation Metrics:
+type: text
+ocr_match: False
+best_match: 9
+match_score: 5.263157894736848
+clip_score: 20.685302734375
