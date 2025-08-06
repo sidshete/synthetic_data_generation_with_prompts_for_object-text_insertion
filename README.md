@@ -8,6 +8,97 @@ This project automatically places synthetic **text** or **image objects** into r
 It uses YOLOv8, CLIP, SAM, MiDaS, and other vision/NLP models to analyze the input scene, detect reference objects, and accurately render the requested elements.
 
 ---
+### To insert object
+<table align="center" border="0" cellspacing="0" cellpadding="5">
+<tr>
+  <!-- Original Scene -->
+  <td align="center">
+    <img src="/results/object_placement/data_object_carrot_jpg_20250803_180809/scene.jpg" width="250"><br>
+    Original Scene
+  </td>
+
+  <!-- Plus -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">+</td>
+
+  <!-- Object -->
+  <td align="center">
+    <img src="/synthetic_data_generation/data/object/carrot.jpg" width="250"><br>
+    Object to be added
+  </td>
+
+  <!-- Plus -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">+</td>
+
+  <!-- Prompt Text + Caption -->
+  <td align="center" style="font-size: 18px; vertical-align: middle;">
+    <b>Prompt: </b>"Place a huge carrot left of cup"<br>
+    
+  </td>
+
+  <!-- Equals -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">=</td>
+
+  <!-- Generated Image -->
+  <td align="center">
+    <img src="/results/object_placement/data_object_carrot_jpg_20250803_180809/composed.jpg" width="250"><br>
+    Generated Image
+  </td>
+</tr>
+</table>
+
+<!-- Evaluation Image -->
+<p align="center">
+  <img src="/results/object_placement/data_object_carrot_jpg_20250803_180809/composed_yolo_debug.jpg" width="350"><br>
+  Evaluation
+</p>
+
+### To insert text
+<table align="center" border="0" cellspacing="0" cellpadding="5">
+<tr>
+  <!-- Original Scene -->
+  <td align="center">
+    <img src="/results/text_placement/happy_birthday_20250803_170906/scene.jpg" width="250"><br>
+    Original Scene
+  </td>
+
+  <!-- Plus -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">+</td>
+
+  <!-- Object -->
+  <td align="center">
+    <td align="center" style="font-size: 18px; vertical-align: middle;">
+    <b>Happy Birthday </b>
+  </td>
+
+  <!-- Plus -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">+</td>
+
+  <!-- Prompt Text + Caption -->
+  <td align="center" style="font-size: 18px; vertical-align: middle;">
+    <b>Prompt: </b>"Write the tiny bold text on cake"<br>
+    
+  </td>
+
+  <!-- Equals -->
+  <td align="center" style="font-size: 40px; font-weight: bold; vertical-align: middle;">=</td>
+
+  <!-- Generated Image -->
+  <td align="center">
+    <img src="/results/text_placement/happy_birthday_20250803_170906/composed.jpg" width="250"><br>
+    Generated Image
+  </td>
+</tr>
+</table>
+
+<!-- Evaluation Image -->
+<p align="center">
+  <img src="/results/text_placement/happy_birthday_20250803_170906/composed_ocr_debug.jpg" width="350"><br>
+  Evaluation
+</p>
+
+
+
+
 
 ##  Project Directory Structure
 
@@ -15,7 +106,7 @@ It uses YOLOv8, CLIP, SAM, MiDaS, and other vision/NLP models to analyze the inp
 .
 ├── CLI.txt                                 # Additional python CLI
 ├── Dockerfile                              
-├── iREADME.md                              # Follow steps for execution and reproducibility
+├── README.md                              # Follow steps for execution and reproducibility
 ├── requirements.txt                        # python dependencies
 ├── results                                 # Already generated
 │   ├── object_placement
@@ -112,5 +203,10 @@ eg: for text
 cd synthetic_data_generation
 python3 main.py --scene data/source_images/000000065485.jpg --object "PAJERO" --prompt "Write the tiny bold text on truck" --output outputs --evaluate
 ```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
